@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+eureka:
+   instance:
+      hostname: localhost
+      # when we don't want to register this as a client means we 
+      #don't need to store this service in Service registry'
+   client:
+      register-with-eureka: false
+      fetch-registry: false
